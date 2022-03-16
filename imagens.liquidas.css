@@ -1,0 +1,71 @@
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    border: 1px solid red;
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 700px;
+    max-width: 1800px;
+}
+/* #imagem {
+    width: 90%;
+    overflow: hidden;
+} */
+img.img-noticia {
+    width: 96%;
+    height: 50%;
+    padding: 2%;
+    min-width: 300px;
+    max-width: 600px;
+}
+#marca {
+    height: 300px;
+    background: #27656d url(background.cod.jpg);
+    text-align: center;
+    line-height: 300px;
+}
+#conteudo {
+    width: 75%;
+    float: right;
+}
+#conteudo-principal {
+    width: 65%;
+    float: left;
+}
+#conteudo-secundario {
+    width: 35%;
+    float: right;
+}
+h2{
+    text-align: center;
+}
+#conteudo-secundario h2, 
+#conteudo-secundario p,
+#conteudo-principal h2,
+#conteudo-principal p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navegacao {
+    width: 18%;
+    float: left;
+    padding-top: 20px;
+    padding: 20px;
+    background: #85b4b4;
+}
+#navegacao ul {
+    text-decoration: none;
+}
+#navegacao li a{
+    text-decoration: none;
+}
+#rodape {
+    clear: both;
+    background: #4babb8;
+    padding: 5px;
+}
